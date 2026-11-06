@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="https://github.com/MRMLD/Practica-de-Redes-Zabbix-/blob/main/README.md"><img src="https://img.shields.io/badge/Documentaci%C3%B3n-Ver%20completa-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Ver documentación completa"></a>
-  <a href="https://youtu.be/FKilNwnb92c"><img src="https://img.shields.io/badge/Video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Ver video"></a>
 </p>
 <p align="center">
   <a href="https://github.com/MRMLD/Practica-de-Redes-Zabbix-/tree/main/scripts"><img src="https://img.shields.io/badge/Scripts-Ver-2ea44f?style=for-the-badge" alt="Scripts"></a>
