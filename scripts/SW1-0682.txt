@@ -1,0 +1,13 @@
+enable
+configure terminal
+hostname SW1-0682
+interface vlan 1
+ ip address 10.6.82.2 255.255.255.0
+ no shutdown
+ exit
+ip default-gateway 10.6.82.1
+snmp-server community mario0682 RO
+snmp-server location PNETLab-ITLA
+snmp-server contact Mario de Leon
+end
+write memory

@@ -1,0 +1,18 @@
+enable
+configure terminal
+hostname R1-0682
+interface e0/0
+ ip address 10.6.82.1 255.255.255.0
+ no shutdown
+ exit
+ip dhcp excluded-address 10.6.82.1 10.6.82.10
+ip dhcp pool LAN-0682
+ network 10.6.82.0 255.255.255.0
+ default-router 10.6.82.1
+ dns-server 8.8.8.8
+ exit
+snmp-server community mario0682 RO
+snmp-server location PNETLab-ITLA
+snmp-server contact Mario de Leon
+end
+write memory

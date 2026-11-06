@@ -1,0 +1,711 @@
+user@Zabbix:~$ snmpwalk -v2c -c mario0682 10.6.82.2 1.3.6.1.2.1.1
+iso.3.6.1.2.1.1.1.0 = STRING: "Cisco IOS Software, Linux Software (I86BI_LINUXL2-ADVIPSERVICESK9-M), Version 15.2(HI_20170202)FLO_DSGS7, EARLY DEPLOYMENT DEVELOPMENT BUILD, synced to  FLO_DSGS7_POSTCOLLAPSE_TEAM_TRACK_DSGS_PI5
+Technical Support: http://www.cisco.com/techsupport
+Copyr"
+iso.3.6.1.2.1.1.2.0 = OID: iso.3.6.1.4.1.9.1.1227
+iso.3.6.1.2.1.1.3.0 = Timeticks: (978898) 2:43:08.98
+iso.3.6.1.2.1.1.4.0 = STRING: "Mario de Leon"
+iso.3.6.1.2.1.1.5.0 = STRING: "SW1-0682"
+iso.3.6.1.2.1.1.6.0 = STRING: "PNETLab-ITLA"
+iso.3.6.1.2.1.1.7.0 = INTEGER: 6
+iso.3.6.1.2.1.1.8.0 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.2.1 = OID: iso.3.6.1.4.1.9.7.129
+iso.3.6.1.2.1.1.9.1.2.2 = OID: iso.3.6.1.4.1.9.7.115
+iso.3.6.1.2.1.1.9.1.2.3 = OID: iso.3.6.1.4.1.9.7.265
+iso.3.6.1.2.1.1.9.1.2.4 = OID: iso.3.6.1.4.1.9.7.112
+iso.3.6.1.2.1.1.9.1.2.5 = OID: iso.3.6.1.4.1.9.7.106
+iso.3.6.1.2.1.1.9.1.2.6 = OID: iso.3.6.1.4.1.9.7.47
+iso.3.6.1.2.1.1.9.1.2.7 = OID: iso.3.6.1.4.1.9.7.122
+iso.3.6.1.2.1.1.9.1.2.8 = OID: iso.3.6.1.4.1.9.7.135
+iso.3.6.1.2.1.1.9.1.2.9 = OID: iso.3.6.1.4.1.9.7.37
+iso.3.6.1.2.1.1.9.1.2.10 = OID: iso.3.6.1.4.1.9.7.92
+iso.3.6.1.2.1.1.9.1.2.11 = OID: iso.3.6.1.4.1.9.7.53
+iso.3.6.1.2.1.1.9.1.2.12 = OID: iso.3.6.1.4.1.9.7.54
+iso.3.6.1.2.1.1.9.1.2.13 = OID: iso.3.6.1.4.1.9.7.52
+iso.3.6.1.2.1.1.9.1.2.14 = OID: iso.3.6.1.4.1.9.7.93
+iso.3.6.1.2.1.1.9.1.2.15 = OID: iso.3.6.1.4.1.9.7.186
+iso.3.6.1.2.1.1.9.1.2.16 = OID: iso.3.6.1.4.1.9.7.128
+iso.3.6.1.2.1.1.9.1.2.17 = OID: iso.3.6.1.4.1.9.7.121
+iso.3.6.1.2.1.1.9.1.2.18 = OID: iso.3.6.1.4.1.9.7.44
+iso.3.6.1.2.1.1.9.1.2.19 = OID: iso.3.6.1.4.1.9.7.350
+iso.3.6.1.2.1.1.9.1.2.20 = OID: iso.3.6.1.4.1.9.7.33
+iso.3.6.1.2.1.1.9.1.2.21 = OID: iso.3.6.1.4.1.9.7.130
+iso.3.6.1.2.1.1.9.1.2.22 = OID: iso.3.6.1.4.1.9.7.568
+iso.3.6.1.2.1.1.9.1.2.23 = OID: iso.3.6.1.4.1.9.7.116
+iso.3.6.1.2.1.1.9.1.2.24 = OID: iso.3.6.1.4.1.9.7.91
+iso.3.6.1.2.1.1.9.1.2.25 = OID: iso.3.6.1.4.1.9.7.999
+iso.3.6.1.2.1.1.9.1.2.26 = OID: iso.3.6.1.4.1.9.7.9999
+iso.3.6.1.2.1.1.9.1.2.27 = OID: iso.3.6.1.4.1.9.7.126
+iso.3.6.1.2.1.1.9.1.2.28 = OID: iso.3.6.1.4.1.9.7.127
+iso.3.6.1.2.1.1.9.1.2.29 = OID: iso.3.6.1.4.1.9.7.64
+iso.3.6.1.2.1.1.9.1.2.30 = OID: iso.3.6.1.4.1.9.7.439
+iso.3.6.1.2.1.1.9.1.2.31 = OID: iso.3.6.1.4.1.9.7.438
+iso.3.6.1.2.1.1.9.1.2.32 = OID: iso.3.6.1.4.1.9.7.123
+iso.3.6.1.2.1.1.9.1.2.33 = OID: iso.3.6.1.4.1.9.7.120
+iso.3.6.1.2.1.1.9.1.2.34 = OID: iso.3.6.1.4.1.9.7.124
+iso.3.6.1.2.1.1.9.1.2.35 = OID: iso.3.6.1.4.1.9.7.119
+iso.3.6.1.2.1.1.9.1.2.36 = OID: iso.3.6.1.4.1.9.7.125
+iso.3.6.1.2.1.1.9.1.2.37 = OID: iso.3.6.1.4.1.9.7.45
+iso.3.6.1.2.1.1.9.1.2.38 = OID: iso.3.6.1.4.1.9.7.445
+iso.3.6.1.2.1.1.9.1.2.39 = OID: iso.3.6.1.4.1.9.7.595
+iso.3.6.1.2.1.1.9.1.2.40 = OID: iso.3.6.1.4.1.9.7.46
+iso.3.6.1.2.1.1.9.1.2.41 = OID: iso.3.6.1.4.1.9.7.584
+iso.3.6.1.2.1.1.9.1.2.42 = OID: iso.3.6.1.4.1.9.7.201
+iso.3.6.1.2.1.1.9.1.2.43 = OID: iso.3.6.1.4.1.9.7.202
+iso.3.6.1.2.1.1.9.1.2.44 = OID: iso.3.6.1.4.1.9.7.440
+iso.3.6.1.2.1.1.9.1.2.45 = OID: iso.3.6.1.4.1.9.7.16
+iso.3.6.1.2.1.1.9.1.2.46 = OID: iso.3.6.1.4.1.9.7.17
+iso.3.6.1.2.1.1.9.1.2.47 = OID: iso.3.6.1.4.1.9.7.319
+iso.3.6.1.2.1.1.9.1.2.48 = OID: iso.3.6.1.4.1.9.7.36
+iso.3.6.1.2.1.1.9.1.2.49 = OID: iso.3.6.1.4.1.9.7.209
+iso.3.6.1.2.1.1.9.1.2.50 = OID: iso.3.6.1.4.1.9.7.412
+iso.3.6.1.2.1.1.9.1.2.51 = OID: iso.3.6.1.4.1.9.7.406
+iso.3.6.1.2.1.1.9.1.2.52 = OID: iso.3.6.1.4.1.9.7.256
+iso.3.6.1.2.1.1.9.1.2.53 = OID: iso.3.6.1.4.1.9.7.101
+iso.3.6.1.2.1.1.9.1.2.54 = OID: iso.3.6.1.4.1.9.7.105
+iso.3.6.1.2.1.1.9.1.2.55 = OID: iso.3.6.1.4.1.9.7.108
+iso.3.6.1.2.1.1.9.1.2.56 = OID: iso.3.6.1.4.1.9.7.103
+iso.3.6.1.2.1.1.9.1.2.57 = OID: iso.3.6.1.4.1.9.7.107
+iso.3.6.1.2.1.1.9.1.2.58 = OID: iso.3.6.1.4.1.9.7.109
+iso.3.6.1.2.1.1.9.1.2.59 = OID: iso.3.6.1.4.1.9.7.110
+iso.3.6.1.2.1.1.9.1.2.60 = OID: iso.3.6.1.4.1.9.7.111
+iso.3.6.1.2.1.1.9.1.2.61 = OID: iso.3.6.1.4.1.9.7.102
+iso.3.6.1.2.1.1.9.1.2.62 = OID: iso.3.6.1.4.1.9.7.102
+iso.3.6.1.2.1.1.9.1.2.63 = OID: iso.3.6.1.4.1.9.7.120
+iso.3.6.1.2.1.1.9.1.2.64 = OID: iso.3.6.1.4.1.9.7.115
+iso.3.6.1.2.1.1.9.1.2.65 = OID: iso.3.6.1.4.1.9.7.62
+iso.3.6.1.2.1.1.9.1.2.66 = OID: iso.3.6.1.4.1.9.7.181
+iso.3.6.1.2.1.1.9.1.2.67 = OID: iso.3.6.1.4.1.9.7.28
+iso.3.6.1.2.1.1.9.1.2.68 = OID: iso.3.6.1.4.1.9.7.117
+iso.3.6.1.2.1.1.9.1.2.69 = OID: iso.3.6.1.4.1.9.7.39
+iso.3.6.1.2.1.1.9.1.2.70 = OID: iso.3.6.1.4.1.9.7.113
+iso.3.6.1.2.1.1.9.1.2.71 = OID: iso.3.6.1.4.1.9.7.114
+iso.3.6.1.2.1.1.9.1.2.72 = OID: iso.3.6.1.4.1.9.7.261
+iso.3.6.1.2.1.1.9.1.2.73 = OID: iso.3.6.1.4.1.9.7.104
+iso.3.6.1.2.1.1.9.1.2.74 = OID: iso.3.6.1.4.1.9.7.187
+iso.3.6.1.2.1.1.9.1.2.75 = OID: iso.3.6.1.4.1.9.7.26
+iso.3.6.1.2.1.1.9.1.2.76 = OID: iso.3.6.1.4.1.9.7.51
+iso.3.6.1.2.1.1.9.1.2.77 = OID: iso.3.6.1.4.1.9.7.118
+iso.3.6.1.2.1.1.9.1.2.78 = OID: iso.3.6.1.4.1.9.7.37
+iso.3.6.1.2.1.1.9.1.2.79 = OID: iso.3.6.1.4.1.9.7.82
+iso.3.6.1.2.1.1.9.1.2.80 = OID: iso.3.6.1.4.1.9.7.83
+iso.3.6.1.2.1.1.9.1.2.81 = OID: iso.3.6.1.4.1.9.7.84
+iso.3.6.1.2.1.1.9.1.2.82 = OID: iso.3.6.1.4.1.9.7.303
+iso.3.6.1.2.1.1.9.1.2.83 = OID: iso.3.6.1.4.1.9.7.1
+iso.3.6.1.2.1.1.9.1.2.84 = OID: iso.3.6.1.4.1.9.7.2
+iso.3.6.1.2.1.1.9.1.2.85 = OID: iso.3.6.1.4.1.9.7.3
+iso.3.6.1.2.1.1.9.1.2.86 = OID: iso.3.6.1.4.1.9.7.4
+iso.3.6.1.2.1.1.9.1.2.87 = OID: iso.3.6.1.4.1.9.7.5
+iso.3.6.1.2.1.1.9.1.2.88 = OID: iso.3.6.1.4.1.9.7.6
+iso.3.6.1.2.1.1.9.1.2.89 = OID: iso.3.6.1.4.1.9.7.7
+iso.3.6.1.2.1.1.9.1.2.90 = OID: iso.3.6.1.4.1.9.7.8
+iso.3.6.1.2.1.1.9.1.2.91 = OID: iso.3.6.1.4.1.9.7.9
+iso.3.6.1.2.1.1.9.1.2.92 = OID: iso.3.6.1.4.1.9.7.10
+iso.3.6.1.2.1.1.9.1.2.93 = OID: iso.3.6.1.4.1.9.7.11
+iso.3.6.1.2.1.1.9.1.2.94 = OID: iso.3.6.1.4.1.9.7.12
+iso.3.6.1.2.1.1.9.1.2.95 = OID: iso.3.6.1.4.1.9.7.13
+iso.3.6.1.2.1.1.9.1.2.96 = OID: iso.3.6.1.4.1.9.7.14
+iso.3.6.1.2.1.1.9.1.2.97 = OID: iso.3.6.1.4.1.9.7.15
+iso.3.6.1.2.1.1.9.1.3.1 = STRING: "Agent capabilities for CISCO-AAA-SERVER-MIB
+ LAST-UPDATED 200001200000Z
+ciscoAAAServerCapabilityV10R00 AGENT-CAPABILITIES
+ SUPPORTS CISCO-AAA-SERVER-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.2 = STRING: "Agent capabilities for CISCO-ALPS-MIB
+ LAST-UPDATED 9710270000Z
+ciscoAlpsCapabilityV01R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-ALPS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.3 = STRING: "The Agent Capabilities for
+                CISCO-ATM-PVCTRAP-EXTN-MIB.
+ LAST-UPDATED 200211060000Z
+ciscoATMPVCTRAPExtnCapabilityV12R00S AGENT-CAPABILITIES
+ SUPPORTS CISCO-ATM-PVCTRAP-EXTN-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.4 = STRING: "Agent capabilities for BGP4-MIB
+ LAST-UPDATED 9408180000Z
+ciscoBgp4CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS BGP4-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.5 = STRING: "The capabilities description of BRIDGE-MIB.
+ LAST-UPDATED 201009090000Z
+ciscoBridgeCapCatOSV08R0601 AGENT-CAPABILITIES
+ SUPPORTS BRIDGE-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.6 = STRING: "Agent capabilities for CALL-HISTORY-MIB
+ LAST-UPDATED 9611190000Z
+ciscoCallHistoryCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-CALL-HISTORY-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.7 = STRING: "Agent capabilities for CISCO-CAS-IF-MIB
+ LAST-UPDATED 9709150000Z
+ciscoCasIfCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-CAS-IF-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.8 = STRING: "Agent capabilities for the CASA-FA-MIB
+ LAST-UPDATED 200012010000Z
+ciscoCasaFaCapabilityV12R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-CASA-FA-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.9 = STRING: "Agent capabilities for the CHANNEL-MIB
+ LAST-UPDATED 9712150000Z
+ciscoChannelCapabilityV12R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CHANNEL-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.10 = STRING: "Agent capabilities for the CISCO-CIPCMPC-MIB
+ LAST-UPDATED 9702190000Z
+ciscoCipCmpcCapabilityV11R03 AGENT-CAPABILITIES
+ SUPPORTS CISCO-CIPCMPC-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.11 = STRING: "Agent capabilities for the CISCO-CIPCSNA-MIB
+ LAST-UPDATED 9504160000Z
+ciscoCipCsnaCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CIPCSNA-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.12 = STRING: "Agent capabilities for the CISCO-CIPLAN-MIB
+ LAST-UPDATED 9504160000Z
+ciscoCipLanCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CIPLAN-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.13 = STRING: "Agent capabilities for the CISCO-CIPTCPIP-MIB
+ LAST-UPDATED 9504280000Z
+ciscoCipTcpIpCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-CIPTCPIP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.14 = STRING: "Agent capabilities for the CISCO-CIPTG-MIB
+ LAST-UPDATED 9901250000Z
+ciscoCipTgCapabilityV12R03T AGENT-CAPABILITIES
+ SUPPORTS CISCO-CIPTG-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.15 = STRING: "Agent capabilities for
+                                 CLASS-BASED-QOS-MIB.
+ LAST-UPDATED 200409010000Z
+ciscoCBQosMibCapabilityV12R0306T AGENT-CAPABILITIES
+SUPPORTS CISCO-CLASS-BASED-QOS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.16 = STRING: "This is the Agent Capabilities for
+                         CISCO-CONFIG_COPY-MIB.
+ LAST-UPDATED 200403170000Z
+ciscoConfigCopyCapabilityV2R0175 AGENT-CAPABILITIES
+SUPPORTS CISCO-CONFIG-COPY-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.17 = STRING: "Agent capabilities for CISCO-DSP-MGMT-MIB
+ LAST-UPDATED 9803250000Z
+ciscoDspMgmtCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-DSP-MGMT-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.18 = STRING: "Agent capabilities for the DSPU-MIB
+ LAST-UPDATED 9501250000Z
+ciscoDspuCapabilityV11R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-DSPU-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.19 = STRING: "The Agent capabilities for CISCO-ENTITY-SENSOR-MIB.
+ LAST-UPDATED 200810060000Z
+cEntitySensorCapabilityV5R015 AGENT-CAPABILITIES
+ SUPPORTS CISCO-ENTITY-SENSOR-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.20 = STRING: "Agent capabilities for CISCO-ENVMON-MIB
+ LAST-UPDATED 9501230000Z
+ciscoEnvMonCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-ENVMON-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.21 = STRING: "Agent capabilities for ETHERLIKE-MIB (RFC 2665).
+ LAST-UPDATED 0001211400Z
+ciscoEtherlikeCapabilityV12R01 AGENT-CAPABILITIES
+SUPPORTS ETHERLIKE-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.22 = STRING: "Agent capabilities for the CISCO-EVC-MIB.
+ LAST-UPDATED 200808260000Z
+ciscoEvcCapabilityV12R02XO AGENT-CAPABILITIES
+ SUPPORTS CISCO-EVC-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.23 = STRING: "Agent capabilities for RFC 1512 FDDI MIB.
+ LAST-UPDATED 9411080000Z
+fddiCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS FDDI-SMT73-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.24 = STRING: "Agent capabilities for the FRAS Host MIB
+ LAST-UPDATED 9702120000Z
+ciscoFrasHostCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-FRAS-HOST-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.25 = STRING: "Agent capabilities for CISCO-GATEKEEPER-MIB
+ LAST-UPDATED 200004170000Z
+ciscoGatekeeperCapabilityV12R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-GATEKEEPER-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.26 = STRING: "Agent capabilities for CISCO-GPRS-GTP-MIB
+ LAST-UPDATED 200106051600Z
+cgprsGtpCapabilityV12R01 AGENT-CAPABILITIES
+ SUPPORTS CISCO-GPRS-GTP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.27 = STRING: "Agent capabilities for CISCO-HSRP-MIB
+ LAST-UPDATED 9808250000Z
+ciscoHsrpCapabilityV12R0 AGENT-CAPABILITIES
+SUPPORTS CISCO-HSRP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.28 = STRING: "Agent capabilities for CISCO-HSRP-EXT-MIB
+ LAST-UPDATED 9808250000Z
+ciscoHsrpExtCapabilityV12R0 AGENT-CAPABILITIES
+SUPPORTS CISCO-HSRP-EXT-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.29 = STRING: "Integrated CSU/DSU MIB module.  For T1 and Switched 56 kbps
+                        interfaces.
+ LAST-UPDATED 9601210000Z
+ciscoICsuDsuCapabilityV11R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-ICSUDSU-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.30 = STRING: "Agent capabilities for the CISCO-IETF-DHCP-SERVER-MIB.
+ LAST-UPDATED 200702141200Z
+ciscoIetfDhcpServerCapabilityV62R00 AGENT-CAPABILITIES
+ SUPPORTS CISCO-IETF-DHCP-SERVER-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.31 = STRING: "Agent capabilities for the CISCO-IETF-DHCP-SERVER-EXT-MIB.
+ LAST-UPDATED 200702141200Z
+ciscoIetfDhcpServerExtCapabilityV62R00 AGENT-CAPABILITIES
+ SUPPORTS CISCO-IETF-DHCP-SERVER-EXT-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.32 = STRING: "Agent capabilities for DIAL-CONTROL-MIB
+ LAST-UPDATED 9709170000Z
+ciscoIetfDialControlCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-IETF-DIAL-CONTROL-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.33 = STRING: "Agent capabilities for DLSW-MIB
+ LAST-UPDATED 9702280000Z
+ciscoIetfDlswCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS DLSW-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.34 = STRING: "Agent capabilities for ISDN-MIB (IETF RFC2127)
+ LAST-UPDATED 9806210000Z
+ciscoIetfIsdnCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-IETF-ISDN-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.35 = STRING: "Agent capabilities for TCP-MIB
+ LAST-UPDATED 9611270000Z
+ciscoIetfTcpCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS TCP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.36 = STRING: "Modification of linkDown trap objects
+                and ifLastChange object
+ LAST-UPDATED 200301210000Z
+ciscoIfCapabilityFrsm12V3R00 AGENT-CAPABILITIES
+SUPPORTS IF-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.37 = STRING: "Agent capabilities for CISCO-IMAGE-MIB
+ LAST-UPDATED 9501250000Z
+ciscoImageMIBCapabilityV10R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-IMAGE-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.38 = STRING: "The capabilities description of IP-MIB.
+ LAST-UPDATED 201009300000Z
+ciscoIpCapabilityV12R2SE AGENT-CAPABILITIES
+ SUPPORTS IP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.39 = STRING: "The capabilities description of IP-FORWARD-MIB.
+ LAST-UPDATED 201009230000Z
+ciscoIpForwardCapabilityV12R2SE AGENT-CAPABILITIES
+ SUPPORTS IP-FORWARD-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.40 = STRING: "Agent capabilities for CISCO-ISDN-MIB
+ LAST-UPDATED 9503100000Z
+ciscoIsdnCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-ISDN-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.41 = STRING: "This is the Agent Capabilities definition for
+        LLDP-EXT-MED-MIB'
+ LAST-UPDATED 200912020000Z
+lldpExtMedCapabilityV12R02SE AGENT-CAPABILITIES
+ SUPPORTS LLDP-EXT-MED-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.42 = STRING: "Agent capabilities for CISCO-MMAIL-DIAL-CONTROL-MIB
+ LAST-UPDATED 9806010000Z
+ciscoMediaMailControlCapabilityV12R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-MMAIL-DIAL-CONTROL-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.43 = STRING: "Agent capabilities for MSDP-MIB
+ LAST-UPDATED 200008220000Z
+ciscoMsdpCapabilityV12R01T AGENT-CAPABILITIES
+SUPPORTS DRAFT-MSDP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.44 = STRING: "The capabilities description of CISCO-NAC-NAD-MIB.
+ LAST-UPDATED 200811100000Z
+ciscoNacNadCapCatOSV08R0701 AGENT-CAPABILITIES
+ SUPPORTS CISCO-NAC-NAD-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.45 = STRING: "Agent capabilities for NOVELL-IPX-MIB
+ LAST-UPDATED 9408180000Z
+ciscoNovellIpxCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS NOVELL-IPX-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.46 = STRING: "Agent capabilities for NOVELL-RIPSAP-MIB
+ LAST-UPDATED 9408180000Z
+ciscoNovellRipSapCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS NOVELL-RIPSAP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.47 = STRING: "The capabilities description of CISCO-PAE-MIB.
+ LAST-UPDATED 200707090000Z
+ciscoPaeCapCatOSV08R0602 AGENT-CAPABILITIES
+ SUPPORTS CISCO-PAE-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.48 = STRING: "Agent capabilities for CISCO-PING-MIB
+ LAST-UPDATED 9408180000Z
+ciscoPingCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-PING-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.49 = STRING: "Agent capabilities for the CISCO-PORT-QOS-MIB
+ LAST-UPDATED 200809250000Z
+ciscoPortQosCapabilityV12R0250SE AGENT-CAPABILITIES
+ SUPPORTS CISCO-PORT-QOS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.50 = STRING: "The capabilities description of
+        POWER-ETHERNET-MIB.
+ LAST-UPDATED 200702080000Z
+cPowerEthernetCapCatOSV08R0401 AGENT-CAPABILITIES
+ SUPPORTS POWER-ETHERNET-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.51 = STRING: "The capabilities description of
+        CISCO-POWER-ETHERNET-EXT-MIB.
+ LAST-UPDATED 200706270000Z
+cPowerEthExtCapCatOSV08R0601 AGENT-CAPABILITIES
+ SUPPORTS CISCO-POWER-ETHERNET-EXT-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.52 = STRING: "Agent capabilities for CISCO-PROCESS-MIB
+ LAST-UPDATED 200411050000Z
+ciscoProcessCapabilityV12R03T AGENT-CAPABILITIES
+SUPPORTS CISCO-PROCESS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.53 = STRING: "Agent capabilities for the RFC1213-MIB (MIB-II)
+ LAST-UPDATED 200109081600Z
+ciscoRFC1213CapabilityV12R02 AGENT-CAPABILITIES
+SUPPORTS RFC1213-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.54 = STRING: "Agent capabilities for RFC1231-MIB (Token Ring MIB)
+ LAST-UPDATED 9408180000Z
+ciscoRFC1231CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1231-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.55 = STRING: "Agent capabilities for RFC1243-MIB (Appletalk MIB)
+ LAST-UPDATED 9408180000Z
+ciscoRFC1243CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1243-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.56 = STRING: "Agent capabilities for RFC1285-MIB (FDDI MIB)
+ LAST-UPDATED 9408180000Z
+ciscoRFC1285CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1285-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.57 = STRING: "Agent capabilities for RFC1315-MIB (Frame Relay MIB)
+ LAST-UPDATED 9408180000Z
+ciscoRFC1315CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1315-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.58 = STRING: "Agent capabilities for RFC1381-MIB
+ LAST-UPDATED 9408180000Z
+ciscoRFC1381CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1381-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.59 = STRING: "Agent capabilities for RFC1382-MIB (X.25 MIB)
+ LAST-UPDATED 9408180000Z
+ciscoRFC1382CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1382-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.60 = STRING: "Agent capabilities for RFC1398-MIB (Ethernet MIB).
+ LAST-UPDATED 9408180000Z
+ciscoRFC1398CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1398-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.61 = STRING: "Agent capabilities for RFC1406-MIB (DS1 MIB)
+ LAST-UPDATED 9408180000Z
+ciscoRFC1406CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RFC1406-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.62 = STRING: "Agent capabilities for RFC1407-MIB (DS3 MIB)
+ LAST-UPDATED 9606190000Z
+ciscoRFC1407CapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS RFC1407-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.63 = STRING: "Agent capabilities for RFC1595-MIB (SONET MIB)
+ LAST-UPDATED 9607290000Z
+ciscoRFC1595CapabilityV11R01 AGENT-CAPABILITIES
+SUPPORTS RFC1595-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.64 = STRING: "Agent capabilities for RS-232-MIB
+ LAST-UPDATED 9408180000Z
+ciscoRS232CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS RS-232-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.65 = STRING: "Agent capabilities for CISCO-RTTMON-MIB
+ LAST-UPDATED 200603020000Z
+ciscoRttMonCapCRS1V3R3 AGENT-CAPABILITIES
+ SUPPORTS CISCO-RTTMON-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.66 = STRING: "Agent capabilities for the SLB-MIB
+ LAST-UPDATED 200010120000Z
+ciscoSlbCapabilityV12R01 AGENT-CAPABILITIES
+SUPPORTS CISCO-SLB-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.67 = STRING: "Agent capabilities for the CISCO-SNA-LLC-MIB
+ LAST-UPDATED 9505100000Z
+ciscoSnaLlcCapabilityV11R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-SNA-LLC-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.68 = STRING: "Agent capabilities for the SNA-SDLC-MIB
+ LAST-UPDATED 9501230000Z
+ciscoSnaSdlcCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SNA-SDLC-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.69 = STRING: "Agent capabilities for CISCO-SNAPSHOT-MIB
+ LAST-UPDATED 9501230000Z
+ciscoSnapshotCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-SNAPSHOT-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.70 = STRING: "Agent capabilities for SNMPv2-MIB
+ LAST-UPDATED 9408180000Z
+ciscoSnmpV2CapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SNMPv2-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.71 = STRING: "Agent capabilities for SNMPv2-PARTY-MIB
+ LAST-UPDATED 9408180000Z
+ciscoSnmpV2PartyCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SNMPv2-PARTY-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.72 = STRING: "The Agent Capabilities for CISCO-SONET-MIB.
+
+
+      - ciscoSonetExtAxsmCapabilityV2R00 is for
+
+        ATM Switch Service Module(AXSM).
+
+
+
+      - ciscoSonetExtAxsmCapabilityV2R11 is for
+
+        ATM Switch Service Module(AXSM).
+
+
+
+      - ciscoSonetExt"
+iso.3.6.1.2.1.1.9.1.3.73 = STRING: "Agent capabilities for SOURCE-ROUTING-MIB
+ LAST-UPDATED 9408180000Z
+ciscoSourceRoutingCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS SOURCE-ROUTING-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.74 = STRING: "Initial version of this MIB module.
+ LAST-UPDATED 200005260000Z
+ciscoSrpCapabilityV12R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-SRP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.75 = STRING: "Agent capabilities for CISCO-TCP-MIB
+ LAST-UPDATED 9408180000Z
+ciscoTcpCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-TCP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.76 = STRING: "Agent capabilities for the CISCO-TCPOFFLOAD-MIB
+ LAST-UPDATED 9706230000Z
+ciscoTcpOffloadCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS CISCO-TCPOFFLOAD-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.77 = STRING: "Agent capabilities for UDP-MIB
+ LAST-UPDATED 9611270000Z
+ciscoUdpCapabilityV11R02 AGENT-CAPABILITIES
+SUPPORTS UDP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.78 = STRING: "Agent capabilities for CISCO-VINES-MIB
+ LAST-UPDATED 9504070000Z
+ciscoVinesCapabilityV10R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-VINES-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.79 = STRING: "Agent capabilities for CISCO-VOICE-ANALOG-IF-MIB
+ LAST-UPDATED 9706150000Z
+ciscoVoiceAnalogIfCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-VOICE-ANALOG-IF-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.80 = STRING: "Agent capabilities for CISCO-VOICE-DIAL-CONTROL-MIB
+ LAST-UPDATED 9907120000Z
+ciscoVoiceDialControlCapabilityV12R00 AGENT-CAPABILITIES
+SUPPORTS CISCO-VOICE-DIAL-CONTROL-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.81 = STRING: "Agent capabilities for CISCO-VOICE-IF-MIB
+ LAST-UPDATED 9706150000Z
+ciscoVoiceIfCapabilityV11R03 AGENT-CAPABILITIES
+SUPPORTS CISCO-VOICE-IF-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.82 = STRING: "Agent capabilities for MPLS-LSR-MIB
+                LAST-UPDATED
+ LAST-UPDATED 200109011200Z
+mplsLsrMibCapabilityV12R0 AGENT-CAPABILITIES
+SUPPORTS MPLS-LSR-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.83 = STRING: "Agent capabilities for OLD-CISCO-APPLETALK-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoAppletalkCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-APPLETALK-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.84 = STRING: "Agent capabilities for OLD-CISCO-CHASSIS-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoChassisCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-CHASSIS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.85 = STRING: "Agent capabilities for OLD-CISCO-CPU-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoCpuCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-CPU-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.86 = STRING: "Agent capabilities for OLD-CISCO-DECNET-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoDECnetCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-DECNET-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.87 = STRING: "Agent capabilities for OLD-CISCO-ENV-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoEnvCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-ENV-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.88 = STRING: "Agent capabilities for OLD-CISCO-FLASH-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoFlashCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-FLASH-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.89 = STRING: "Agent capabilities for OLD-CISCO-INTERFACES-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoIfCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-INTERFACES-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.90 = STRING: "Agent capabilities for OLD-CISCO-IP-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoIpCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-IP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.91 = STRING: "Agent capabilities for OLD-CISCO-MEMORY-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoMemoryCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-MEMORY-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.92 = STRING: "Agent capabilities for OLD-CISCO-NOVELL-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoNovellCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-NOVELL-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.93 = STRING: "Agent capabilities for OLD-CISCO-SYSTEM-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoSystemCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-SYSTEM-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.94 = STRING: "Agent capabilities for OLD-CISCO-TCP-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoTcpCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-TCP-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.95 = STRING: "Agent capabilities for OLD-CISCO-TS-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoTsCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-TS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.96 = STRING: "Agent capabilities for OLD-CISCO-VINES-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoVinesCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-VINES-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.3.97 = STRING: "Agent capabilities for OLD-CISCO-XNS-MIB
+ LAST-UPDATED 9408180000Z
+oldCiscoXnsCapabilityV10R02 AGENT-CAPABILITIES
+SUPPORTS OLD-CISCO-XNS-MIB
+File name: sys"
+iso.3.6.1.2.1.1.9.1.4.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.2 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.3 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.4 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.5 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.6 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.7 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.8 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.9 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.10 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.11 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.12 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.13 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.14 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.15 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.16 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.17 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.18 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.19 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.20 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.21 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.22 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.23 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.24 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.25 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.26 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.27 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.28 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.29 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.30 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.31 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.32 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.33 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.34 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.35 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.36 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.37 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.38 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.39 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.40 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.41 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.42 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.43 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.44 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.45 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.46 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.47 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.48 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.49 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.50 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.51 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.52 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.53 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.54 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.55 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.56 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.57 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.58 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.59 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.60 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.61 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.62 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.63 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.64 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.65 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.66 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.67 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.68 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.69 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.70 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.71 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.72 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.73 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.74 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.75 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.76 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.77 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.78 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.79 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.80 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.81 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.82 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.83 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.84 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.85 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.86 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.87 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.88 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.89 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.90 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.91 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.92 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.93 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.94 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.95 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.96 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.1.9.1.4.97 = Timeticks: (0) 0:00:00.00
+user@Zabbix:~$

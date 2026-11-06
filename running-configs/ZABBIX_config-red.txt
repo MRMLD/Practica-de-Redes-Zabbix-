@@ -1,0 +1,17 @@
+# Configuracion de red del servidor Zabbix (Ubuntu) - Mario de Leon 20250682
+# El servidor Linux no tiene "running-config"; este es su equivalente de red.
+
+user@Zabbix:~$ ip route
+default via 10.0.137.1 dev ens4
+default via 10.6.82.1 dev ens3 proto dhcp src 10.6.82.12 metric 100
+10.0.137.0/24 dev ens4 proto kernel scope link src 10.0.137.88
+10.6.82.0/24 dev ens3 proto kernel scope link src 10.6.82.12
+10.6.82.1 dev ens3 proto dhcp scope link src 10.6.82.12 metric 100
+
+user@Zabbix:~$ cat /etc/netplan/*.yaml
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens3:
+      dhcp4: true
+  version: 2
